@@ -187,44 +187,12 @@ p {
 .a-start {
     pointer-events:auto;
     text-decoration: none;
+    height: 80px;
+    width: 80px;
     z-index: 10000;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*----------------------------------------start button-----------------------------------------------*/
 .container {
     display: flex;
     justify-content: center;
