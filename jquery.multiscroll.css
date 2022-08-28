@@ -184,6 +184,10 @@ p {
     margin-bottom: 0px;
     font-size: 16px;
 }
+.a-start {
+    pointer-events:auto;
+    text-decoration: none;
+}
 
 .container {
     display: flex;
