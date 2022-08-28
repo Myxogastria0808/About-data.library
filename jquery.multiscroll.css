@@ -187,6 +187,7 @@ p {
 .a-start {
     pointer-events:auto;
     text-decoration: none;
+    z-index: 10000;
 }
 
 .container {
