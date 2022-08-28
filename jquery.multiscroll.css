@@ -4,8 +4,6 @@ html, body {
     overflow:hidden;
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
 }
-
-
 .ms-section {
     position: relative;
     -webkit-box-sizing: border-box;
@@ -175,26 +173,12 @@ p {
 .install-div {
     text-align: center;
 }
-/* .h1-mobile {
-    margin-top: 10px;
-    margin-bottom: 0px;
-}
-.p-mobile {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-size: 16px;
-}
-.a-start {
-    pointer-events:auto;
-    text-decoration: none;
-    height: 80px;
-    width: 80px;
-} */
 a {
     text-decoration-color: #00e2b3;
 }
-
-/*----------------------------------------start button-----------------------------------------------*/
+img:hover {
+    box-shadow: 0 0 8px black;
+}
 .container {
     display: flex;
     justify-content: center;
@@ -204,66 +188,6 @@ a {
     height: 100vh;
     box-sizing: border-box;
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+    padding-left: 10px;
+    padding-right: 10px;
 }
-
-/*
-.switch-checkbox {
-    position: relative;
-    margin-bottom: 1rem;
-    z-index: 0;
-}
-
-.switch-checkbox input[type=checkbox] {
-    position: relative;
-    cursor: pointer;
-    width: 5rem;
-    height: 5rem;
-    border-radius: 50%;
-    background: linear-gradient(145deg, #424242, #181818);
-    box-shadow: 0 0px 8px #666;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    vertical-align: middle;
-    transition: .2s;
-}
-
-.switch-checkbox input[type=checkbox]::before {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #efefef;
-    font-family: "Font Awesome 5 Free";
-    font-size: 30px;
-    font-weight: 900;
-    content: "\f011";
-    transition: .2s;
-}
-
-.switch-checkbox input[type=checkbox]::after {
-    position: absolute;
-    top: -8px;
-    right: -8px;
-    bottom: -8px;
-    left: -8px;
-    border-radius: inherit;
-    background: linear-gradient(#efefef, #cecece);
-    z-index: -1;
-    content: "";
-    transition: .1s;
-}
-
-.switch-checkbox input[type=checkbox]:checked {
-    background: linear-gradient(145deg, #181818, #424242);
-}
-
-.switch-checkbox input[type=checkbox]:checked::before {
-    color: #19FF97;
-    text-shadow: 0 0px 3px #1CD892;
-}
-
-.switch-checkbox input[type=checkbox]:checked::after {
-    background-image: linear-gradient(135deg, #69FF97 10%, #00E4FF 100%);
-    box-shadow: 0 0px 10px #69FF97;
-} */
